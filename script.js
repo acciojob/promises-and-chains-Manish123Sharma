@@ -7,7 +7,7 @@ document.getElementById('voteForm').addEventListener('submit', function (e) {
 
   // Validation
   if (!name || !age) {
-    alert('Please enter valid details.');
+    alert('Please enter valid details');
     return;
   }
 
